@@ -1,0 +1,29 @@
+/* layout.css - handles page layout */
+
+/* Float image to the right */
+.main-photo {
+float: right;
+width: 300px;
+margin: 10px;
+}
+
+/* Grid layout for main content */
+main {
+display: grid;
+grid-template-columns: 1fr;
+gap: 20px;
+}
+
+/* Responsive design for mobile screens */
+@media screen and (max-width: 600px) {
+nav ul {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.main-photo {
+float: none;
+width: 90%;
+}
+}

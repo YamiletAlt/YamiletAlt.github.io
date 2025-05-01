@@ -1,0 +1,54 @@
+/* styles.css - handles formatting */
+
+/* Body text and background */
+body {
+font-family: Arial, sans-serif;
+color: black;
+background-color: white;
+}
+
+/* Navigation styling */
+nav ul {
+list-style-type: disc;
+background-color: #ddd;
+padding: 10px;
+padding-left: 20px
+}
+
+nav ul li {
+	display: list-item;
+	margin-bottom: 10px;
+}
+
+/* Hyperlink styles */
+a:link {
+color: blue;
+}
+a:visited {
+color: purple;
+}
+a:hover {
+color: red;
+text-decoration: underline;
+}
+
+/* Unique background colors for pet pages */
+
+.home-bg {
+		background-color: #ADD8E6 !important; 
+		}
+.pet1-bg { 
+		background-color: #FFB6C1 !important; 
+		}
+.pet2-bg { 
+		background-color: #D8BFD8 !important; 
+		}
+.pet3-bg { 
+		background-color: orange; 
+		}
+.pet4-bg { 
+		background-color: grey; 
+		}
+.pet5-bg { 
+		background-color: brown; 
+		}
